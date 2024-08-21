@@ -4,3 +4,54 @@
     align-items: center;
     width: 100%;
 }
+
+
+
+/* footer */
+
+.brand_name {
+    display: flex;
+    justify-content: center;
+}
+
+p.brand_decription {
+    display: flex;
+    text-align: center;
+}
+
+.qualities {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.awarded {
+    display: flex;
+    justify-content: center;
+}
+
+.awards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment_details {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.payment1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extraLinks {
+    display: flex;
+}
+
+.c {
+    display: flex;
+}
