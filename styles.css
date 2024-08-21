@@ -1,9 +1,20 @@
 .circles {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin-top: 70px;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+.circle-item {
+    text-align: center;
+}
+
+.circle-text {
+    font-family: 'Poppins';
+    font-size: 14px; 
+    color: rgb(59, 59, 59);
+    margin-top: 5px; 
 }
 
 .title {
@@ -12,7 +23,6 @@
     margin-bottom: -10px;
     font-weight: 600;
     font-family: 'Poppins';
-    
     color: rgb(59, 59, 59);
 }
 
@@ -55,6 +65,49 @@
 
     margin-bottom: -20px;
 }
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-text1 {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 26px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.image-text2 {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 26px;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-weight: 400;
+
+}
+
 .top-banner {
     width: 100%;
     display: flex;
@@ -132,7 +185,6 @@ nav ul li a {
 
 
 
-
 /* footer */
 
 .brand_name {
@@ -144,7 +196,8 @@ nav ul li a {
     color: rgb(0, 0, 0); 
     font-size: 50px;
     line-height: 60px;
-    }
+    text-align: center;
+}
     
 
 .brand_description {
@@ -316,6 +369,20 @@ nav ul li a {
     font-size: 12px;
 }
 
+.text-overlay{
+    position: absolute;
+    text-align:center;
+    right: 0;
+    margin: 0 auto;
+    top: 80%;
+}
+.text-overlay{
+    left: 0;
+    transform: none;
+    padding: 10px 50px;
+    color: beige;
+    height: 500px;
+}
 .extraLinks div {
     line-height: 1.75;
 }
