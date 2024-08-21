@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    margin-top: 70px;
 }
 
 .title {
@@ -238,6 +239,7 @@
     font-weight: 400;
     color: rgb(97, 97, 97);
     font-size: 12px;
+<<<<<<< HEAD
 }
 
 .extraLinks div {
@@ -253,3 +255,7 @@
     width: 175px;
 }
 
+=======
+    line-height: 18px;
+}
+>>>>>>> 20abf48e63b52d9cb9de6d4ba9df2e05524c7446
