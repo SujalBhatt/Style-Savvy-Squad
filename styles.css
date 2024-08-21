@@ -371,6 +371,20 @@ nav ul li a {
     font-size: 12px;
 }
 
+.text-overlay{
+    position: absolute;
+    text-align:center;
+    right: 0;
+    margin: 0 auto;
+    top: 80%;
+}
+.text-overlay{
+    left: 0;
+    transform: none;
+    padding: 10px 50px;
+    color: beige;
+    height: 500px;
+}
 .extraLinks div {
     line-height: 1.75;
 }
