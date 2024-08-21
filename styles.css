@@ -163,7 +163,7 @@ nav ul li a {
 
 .qualities {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -176,17 +176,26 @@ nav ul li a {
 }
 
 .qualities img {
-    height: 11.111vh;
+    height: 8.4vh;
 }
 
 .quality1{
-    padding: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
     border-right: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    height: 63px;
 }
+
+.qualities div :last-child{
+    border: none;
+} 
 
 .awarded {
     display: flex;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .awards {
@@ -194,9 +203,14 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: baseline;
+    align-content: flex-start;
     margin: 0 2vw;
     width: 250px;
+}
+
+
+.awards img {
+    height: 5.6vh;
 }
 
 
@@ -217,28 +231,53 @@ nav ul li a {
     font-weight: 400;
     color: rgb(142, 142, 142); 
     font-size: 14px;
-    line-height: 28px;
+    line-height: 21px;
 }
 
 .payment_details {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0vh 3vw;
     
 }
 
 .payment1{
     display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+.payment1 img {
+    margin-right: 10px;
+}
+
+
+.h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 0;
 }
 
 .extraLinks {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    padding: 40px 0;
 }
+
+.prepaid p {
+    line-height: 22px;
+    margin-top:0%;
+}
+
 
 .c {
     display: flex;
-    margin-top: 70px;
+    margin-top: 30px;
+    align-items: flex-start;
 }
 
 .popular_searches a {
@@ -267,14 +306,28 @@ nav ul li a {
     color: rgb(59, 59, 59);
     font-size: 12px;
     line-height: 14px;
+    margin-bottom: 15px;
 }
 
-.extraLinks a {
+.extraLinks a,p {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: rgb(97, 97, 97);
     font-size: 12px;
-    line-height: 18px;
 }
+
+.extraLinks div {
+    line-height: 1.75;
+}
+
+.footerLinks {
+    margin: 3vh 3vw;
+}
+
+.lal{
+    margin-right: 15px;
+    width: 175px;
+}
+
 
