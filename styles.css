@@ -63,16 +63,49 @@
 .brand_name {
     display: flex;
     justify-content: center;
-}
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(0, 0, 0); 
+    font-size: 50px;
+    line-height: 60px;
+    }
+    
 
-p.brand_decription {
-    display: flex;
+.brand_description {
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(142, 142, 142); 
+    font-size: 14px;
+    line-height: 28px;
+    margin: 5vh 11.111vw;
 }
 
 .qualities {
     display: flex;
     justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    margin: 3vh 11.111vw;
+    text-align: center;
+}
+
+.qualities img {
+    height: 11.111vh;
+}
+
+.quality1{
+    padding: 12px;
+    border-right: 1px solid #ccc;
 }
 
 .awarded {
@@ -85,6 +118,30 @@ p.brand_decription {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: baseline;
+    margin: 0 2vw;
+    width: 250px;
+}
+
+
+.award {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 0;
+}
+
+.awardd{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(142, 142, 142); 
+    font-size: 14px;
+    line-height: 28px;
 }
 
 .payment_details {
@@ -105,6 +162,42 @@ p.brand_decription {
 
 .c {
     display: flex;
-=======
     margin-top: 70px;
+}
+
+.popular_searches a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(85,85,85);
+    font-size: 13px;
+    line-height: 20px;
+
+}
+
+.h3p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(59, 59, 59);
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.h4p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: rgb(59, 59, 59);
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.extraLinks a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: rgb(97, 97, 97);
+    font-size: 12px;
+    line-height: 18px;
 }
