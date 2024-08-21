@@ -5,6 +5,56 @@
     width: 100%;
 }
 
+.title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: -10px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    
+    color: rgb(59, 59, 59);
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0;
+    margin-top: 0;
+    justify-items: center;
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+}
+
+#image2 {
+    margin-top: 50px;
+
+}
+
+#image5 {
+    margin-top: 50px;
+}
+
+#image8 {
+    margin-top: 50px;
+}
+
+.subtitle {
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(59, 59, 59);
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+
+
 
 
 /* footer */
@@ -56,52 +106,4 @@ p.brand_decription {
     display: flex;
 =======
     margin-top: 70px;
-}
-
-.title {
-    text-align: center;
-    font-size: 32px;
-    margin-bottom: -10px;
-    font-weight: 600;
-    font-family: 'Poppins';
-    
-    color: rgb(59, 59, 59);
-}
-
-.images {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    padding: 0;
-    margin-top: 0;
-    justify-items: center;
-}
-
-.images img {
-    max-width: 100%;
-    height: auto;
-}
-
-#image2 {
-    margin-top: 50px;
-
-}
-
-#image5 {
-    margin-top: 50px;
-}
-
-#image8 {
-    margin-top: 50px;
-}
-
-.subtitle {
-    font-family: 'Poppins';
-    font-size: 14px;
-    line-height: 18px;
-    color: rgb(59, 59, 59);
-    font-weight: 400;
-    font-style: italic;
-    text-align: center;
-    margin: 0;
 }
