@@ -1,3 +1,4 @@
+
 .circles {
     display: flex;
     flex-wrap: wrap;
@@ -179,7 +180,7 @@ nav ul li a {
 }
 .Banner img {
     width: 100%;
-}   
+} 
 
 
 
@@ -328,8 +329,9 @@ nav ul li a {
 
 .c {
     display: flex;
+    justify-content: space-between;
     margin-top: 30px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .popular_searches a {
@@ -394,6 +396,17 @@ nav ul li a {
 .lal{
     margin-right: 15px;
     width: 175px;
+}
+
+.social{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    padding: 0%;
+}
+
+li{
+    margin: 0 1vw;
 }
 
 
