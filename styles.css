@@ -255,6 +255,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    margin-top: 6vh; 
 }
 
 .awards {
