@@ -198,6 +198,7 @@ nav ul li a {
     font-size: 50px;
     line-height: 60px;
     text-align: center;
+    margin: 0rem 0rem 0.75;
 }
     
 
@@ -275,6 +276,7 @@ nav ul li a {
     font-size: 18px;
     line-height: 27px;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .awardd{
@@ -290,7 +292,7 @@ nav ul li a {
 .payment_details {
     display: flex;
     justify-content: space-between;
-    margin: 0vh 3vw;
+    margin: 6vh 4vw;
     
 }
 
@@ -407,6 +409,12 @@ nav ul li a {
 
 li{
     margin: 0 1vw;
+}
+
+.line {
+    color: maroon;
+    margin: .3rem;
+    width: 100%;
 }
 
 
